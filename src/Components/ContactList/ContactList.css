@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.contact-card {
+  background: black;
+  color: white;
+  padding: 20px;
+  width: 500px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: skyblue;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.add-btn {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+}
+
+.search-input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-item {
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.contact-index {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.contact-icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.phone {
+  margin: 0;
+  font-size: 14px;
+  color: gray;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.delete {
+  color: red;
+}
